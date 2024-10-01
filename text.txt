@@ -1,0 +1,30 @@
+D:\ User >	
+
+
+cd D:\โค้ด Project\Django School\
+
+.\venv\scripts\activate
+
+cd djangoschool
+
+
+django-admin startproject djangoschool
+
+cd djangoschool
+
+
+D:\โค้ดProject\Django School\djangoschool>  python manage.py runserver
+
+
+
+-----------------------------------------
+สร้างDatabase
+
+python manage.py makemigratins
+
+python manage.py migrate
+
+code> admin.py
+
+เพิ่ม admin.site.register(ExamScore[#ชื่อฐานข้อมูล]) 
+  
